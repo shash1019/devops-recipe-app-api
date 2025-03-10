@@ -151,7 +151,3 @@ resource "aws_iam_user_policy_attachment" "ec2" {
   user       = aws_iam_user.cd.name
   policy_arn = aws_iam_policy.ec2.arn
 }
-Footer
-© 2025 GitHub, Inc.
-Footer navigation
-Terms
